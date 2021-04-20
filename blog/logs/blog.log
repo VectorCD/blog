@@ -1,0 +1,118 @@
+INFO 2021-04-19 16:48:46,389 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 16:48:54,778 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2021-04-19 16:48:54,819 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-04-19 16:48:54,843 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-19 16:48:54,847 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-19 16:48:54,880 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-19 16:48:58,969 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2021-04-19 16:49:02,112 basehttp 161 "GET / HTTP/1.1" 200 10697
+INFO 2021-04-19 16:49:31,830 autoreload 250 G:\workspace\blog\blog\blog\urls.py changed, reloading.
+INFO 2021-04-19 16:49:33,797 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 16:49:53,366 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 16:49:53,792 urls 29 info
+INFO 2021-04-19 16:49:53,793 basehttp 161 "GET / HTTP/1.1" 200 4
+INFO 2021-04-19 17:09:27,789 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:10:10,165 basehttp 161 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2021-04-19 17:10:10,227 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-04-19 17:10:10,228 basehttp 161 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-04-19 17:10:10,250 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-04-19 17:10:10,261 basehttp 161 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-04-19 17:10:10,267 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-04-19 17:10:10,290 basehttp 161 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-04-19 17:10:10,314 basehttp 161 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-04-19 17:10:10,338 basehttp 161 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-04-19 17:10:10,351 basehttp 161 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-04-19 17:10:10,355 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-04-19 17:10:10,367 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-04-19 17:10:10,444 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-04-19 17:23:45,781 autoreload 250 G:\workspace\blog\blog\blog\settings.py changed, reloading.
+INFO 2021-04-19 17:23:47,671 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:24:35,609 autoreload 250 G:\workspace\blog\blog\blog\settings.py changed, reloading.
+INFO 2021-04-19 17:24:37,576 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:27:33,186 autoreload 250 G:\workspace\blog\blog\blog\settings.py changed, reloading.
+INFO 2021-04-19 17:27:35,393 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:28:49,765 autoreload 250 G:\workspace\blog\blog\templates\register.html changed, reloading.
+INFO 2021-04-19 17:28:52,923 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:40:51,580 autoreload 250 G:\workspace\blog\blog\blog\urls.py changed, reloading.
+INFO 2021-04-19 17:40:53,832 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:42:55,672 autoreload 250 G:\workspace\blog\blog\blog\urls.py changed, reloading.
+INFO 2021-04-19 17:42:58,141 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:43:43,342 autoreload 250 G:\workspace\blog\blog\blog\urls.py changed, reloading.
+INFO 2021-04-19 17:43:45,488 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:44:34,958 autoreload 250 G:\workspace\blog\blog\users\urls.py changed, reloading.
+INFO 2021-04-19 17:44:36,999 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:45:04,358 autoreload 250 G:\workspace\blog\blog\blog\urls.py changed, reloading.
+INFO 2021-04-19 17:45:06,401 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:46:10,209 autoreload 250 G:\workspace\blog\blog\blog\urls.py changed, reloading.
+INFO 2021-04-19 17:46:12,709 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:48:53,862 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 17:54:18,961 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-19 17:54:31,120 log 224 Not Found: /
+WARNING 2021-04-19 17:54:31,121 basehttp 161 "GET / HTTP/1.1" 404 2115
+INFO 2021-04-19 17:54:38,895 basehttp 161 "GET /register HTTP/1.1" 301 0
+INFO 2021-04-19 17:54:38,917 basehttp 161 "GET /register/ HTTP/1.1" 200 5217
+INFO 2021-04-19 17:54:38,975 basehttp 161 "GET /static/img/image_code.png HTTP/1.1" 200 3483
+INFO 2021-04-19 17:54:38,994 basehttp 161 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-04-19 18:25:54,455 autoreload 250 G:\workspace\blog\blog\templates\register.html changed, reloading.
+INFO 2021-04-19 18:25:57,339 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 18:32:47,232 autoreload 636 Watching for file changes with StatReloader
+ERROR 2021-04-19 18:32:52,816 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 11, in get
+    return render(request, 'register.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-19 18:32:52,820 basehttp 161 "GET /register/ HTTP/1.1" 500 153871
+INFO 2021-04-19 18:35:15,214 autoreload 250 G:\workspace\blog\blog\templates\register.html changed, reloading.
+INFO 2021-04-19 18:35:17,251 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 18:35:22,466 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-19 18:35:27,152 basehttp 161 "GET /register/ HTTP/1.1" 200 5208

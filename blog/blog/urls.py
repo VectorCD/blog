@@ -17,20 +17,25 @@ Including another URLconf
 import logging
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.http import HttpResponse
 
-# 2.创建（获取）日志器
-logger = logging.getLogger('django')
-
-
-def log(request):
-    # 3.使用日志器记录信息
-    logger.info('info')
-    return HttpResponse('test')
+# # 2.创建（获取）日志器
+# logger = logging.getLogger('django')
+#
+#
+# def log(request):
+#     # 3.使用日志器记录信息
+#     logger.info('info')
+#     return HttpResponse('test')
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', log),
+    # include 的参数中 我们首先来设置一个元组urlconf_module, app_name
+    # urlconf_module 子应用的路由
+    # app_name 子应用的名字
+    # namespace 命名空间
+    path('', include(('users.urls', 'users'), namespace='users'))
+    # path('', log),
 ]
