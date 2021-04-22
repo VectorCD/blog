@@ -116,3 +116,1228 @@ INFO 2021-04-19 18:35:15,214 autoreload 250 G:\workspace\blog\blog\templates\reg
 INFO 2021-04-19 18:35:17,251 autoreload 636 Watching for file changes with StatReloader
 INFO 2021-04-19 18:35:22,466 autoreload 636 Watching for file changes with StatReloader
 INFO 2021-04-19 18:35:27,152 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+INFO 2021-04-20 16:18:33,442 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-20 16:19:53,965 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-20 16:20:41,960 log 224 Not Found: /booker/
+WARNING 2021-04-20 16:20:41,961 basehttp 161 "GET /booker/ HTTP/1.1" 404 2329
+INFO 2021-04-20 16:20:50,602 basehttp 161 "GET /register HTTP/1.1" 301 0
+INFO 2021-04-20 16:20:50,632 basehttp 161 "GET /register/ HTTP/1.1" 200 5208
+WARNING 2021-04-20 16:20:51,126 log 224 Not Found: /favicon.ico
+WARNING 2021-04-20 16:20:51,127 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2341
+WARNING 2021-04-20 16:20:58,956 log 224 Not Found: /index/
+WARNING 2021-04-20 16:20:58,957 basehttp 161 "GET /index/ HTTP/1.1" 404 2326
+ERROR 2021-04-20 16:22:31,897 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 32, in get
+    uuid = request.Get.get('uuid')
+AttributeError: 'WSGIRequest' object has no attribute 'Get'
+ERROR 2021-04-20 16:23:32,460 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 500 79622
+INFO 2021-04-20 16:27:00,962 autoreload 636 Watching for file changes with StatReloader
+ERROR 2021-04-20 16:27:11,769 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 32, in get
+    uuid = request.Get.get('uuid')
+AttributeError: 'WSGIRequest' object has no attribute 'Get'
+ERROR 2021-04-20 16:27:11,771 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 500 77547
+INFO 2021-04-20 16:30:06,785 autoreload 250 G:\workspace\blog\blog\users\views.py changed, reloading.
+INFO 2021-04-20 16:30:08,732 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-20 16:32:08,449 autoreload 250 G:\workspace\blog\blog\users\views.py changed, reloading.
+INFO 2021-04-20 16:32:10,528 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-20 16:39:11,420 autoreload 636 Watching for file changes with StatReloader
+ERROR 2021-04-20 16:39:29,033 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 32, in get
+    uuid = request.Get.get('uuid')
+AttributeError: 'WSGIRequest' object has no attribute 'Get'
+ERROR 2021-04-20 16:39:29,036 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 500 77548
+INFO 2021-04-20 16:40:59,679 autoreload 250 G:\workspace\blog\blog\users\views.py changed, reloading.
+INFO 2021-04-20 16:41:01,654 autoreload 636 Watching for file changes with StatReloader
+ERROR 2021-04-20 16:41:09,878 log 224 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 45, in get
+    redis_conn.setex('img:%s' @ uuid, 300, text)
+TypeError: unsupported operand type(s) for @: 'str' and 'str'
+ERROR 2021-04-20 16:41:09,882 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 500 83098
+INFO 2021-04-20 16:42:24,548 autoreload 250 G:\workspace\blog\blog\users\views.py changed, reloading.
+INFO 2021-04-20 16:42:26,322 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-20 16:42:31,306 basehttp 161 "GET /imagecode/?uuid=123 HTTP/1.1" 200 2796
+INFO 2021-04-20 16:45:09,288 autoreload 250 G:\workspace\blog\blog\templates\register.html changed, reloading.
+INFO 2021-04-20 16:45:11,154 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-20 16:45:35,278 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-04-20 16:45:35,462 basehttp 161 "GET /imagecode/?uuid=ace5222f-6a3c-4ac8-aa9b-ffdd1fd00ce3 HTTP/1.1" 200 3153
+INFO 2021-04-20 16:46:03,279 basehttp 161 "GET /imagecode/?uuid=d2115021-d8b7-4523-b131-10e6e02dc8e3 HTTP/1.1" 200 3074
+INFO 2021-04-20 16:46:04,370 basehttp 161 "GET /imagecode/?uuid=928add09-d59e-4c57-a30b-be9f906f01d4 HTTP/1.1" 200 3186
+INFO 2021-04-20 18:17:31,058 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-20 18:18:14,597 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-20 18:20:03,529 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-04-20 18:20:03,657 basehttp 161 "GET /imagecode/?uuid=09df947d-7fb2-4b0e-98ec-32e07495bbde HTTP/1.1" 200 3378
+INFO 2021-04-20 18:20:18,415 basehttp 161 "GET /imagecode/?uuid=c7452cba-6955-4322-a9d8-43b77a1f906b HTTP/1.1" 200 3387
+WARNING 2021-04-20 18:20:23,969 log 224 Not Found: /smscode/
+WARNING 2021-04-20 18:20:23,970 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=QSMY&uuid=c7452cba-6955-4322-a9d8-43b77a1f906b HTTP/1.1" 404 2417
+WARNING 2021-04-20 18:20:28,676 log 224 Not Found: /smscode/
+WARNING 2021-04-20 18:20:28,677 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=QSMY&uuid=c7452cba-6955-4322-a9d8-43b77a1f906b HTTP/1.1" 404 2417
+WARNING 2021-04-20 18:22:12,553 log 224 Not Found: /smscode/
+WARNING 2021-04-20 18:22:12,554 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=QSMY&uuid=c7452cba-6955-4322-a9d8-43b77a1f906b HTTP/1.1" 404 2417
+INFO 2021-04-20 18:34:49,185 autoreload 250 G:\workspace\blog\blog\users\views.py changed, reloading.
+INFO 2021-04-20 18:34:52,101 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 11:36:25,452 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 11:37:12,848 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-04-21 11:37:14,378 basehttp 161 "GET /imagecode/?uuid=aab6dc7c-0d03-4ae8-a9ae-d4f2e0799ec7 HTTP/1.1" 200 3429
+WARNING 2021-04-21 11:37:14,454 log 224 Not Found: /favicon.ico
+WARNING 2021-04-21 11:37:14,455 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 2341
+WARNING 2021-04-21 11:37:35,664 log 224 Not Found: /smscode/
+WARNING 2021-04-21 11:37:35,665 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=HTEW&uuid=aab6dc7c-0d03-4ae8-a9ae-d4f2e0799ec7 HTTP/1.1" 404 2417
+INFO 2021-04-21 11:44:17,737 autoreload 250 G:\workspace\blog\blog\users\views.py changed, reloading.
+INFO 2021-04-21 11:44:20,179 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 11:52:24,418 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 12:02:40,932 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 12:03:13,456 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-04-21 12:03:13,593 basehttp 161 "GET /imagecode/?uuid=5396b50f-7fbc-45ec-a893-eca3ececb580 HTTP/1.1" 200 3498
+INFO 2021-04-21 12:03:30,842 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=DXBM&uuid=5396b50f-7fbc-45ec-a893-eca3ececb580 HTTP/1.1" 200 72
+INFO 2021-04-21 12:03:30,863 basehttp 161 "GET /imagecode/?uuid=4718ffbe-2d2c-4ccf-9070-8a09d1499d4b HTTP/1.1" 200 3159
+INFO 2021-04-21 12:03:38,930 views 109 572268
+INFO 2021-04-21 12:03:39,323 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=TSRQ&uuid=4718ffbe-2d2c-4ccf-9070-8a09d1499d4b HTTP/1.1" 200 63
+INFO 2021-04-21 12:04:43,034 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=TSRQ&uuid=4718ffbe-2d2c-4ccf-9070-8a09d1499d4b HTTP/1.1" 200 78
+INFO 2021-04-21 12:04:43,052 basehttp 161 "GET /imagecode/?uuid=24b60e55-fbad-4a6f-b2f6-d5c8de3908b1 HTTP/1.1" 200 3104
+INFO 2021-04-21 12:04:51,942 basehttp 161 "GET /imagecode/?uuid=9b32ea23-da5c-457c-8f99-1f3dded1d83b HTTP/1.1" 200 3054
+INFO 2021-04-21 12:04:53,365 basehttp 161 "GET /imagecode/?uuid=fc5c2ade-cb28-4287-b1ef-bdb753e173f0 HTTP/1.1" 200 3442
+INFO 2021-04-21 12:05:03,330 views 109 542618
+INFO 2021-04-21 12:05:03,634 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=JGCU&uuid=fc5c2ade-cb28-4287-b1ef-bdb753e173f0 HTTP/1.1" 200 63
+WARNING 2021-04-21 12:05:34,449 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-04-21 12:05:34,450 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+INFO 2021-04-21 12:05:43,245 basehttp 161 "GET /register/ HTTP/1.1" 200 5197
+INFO 2021-04-21 12:05:43,337 basehttp 161 "GET /imagecode/?uuid=6a780de2-4d6a-44fa-a945-261c96080c11 HTTP/1.1" 200 3342
+INFO 2021-04-21 12:06:11,561 views 109 918352
+INFO 2021-04-21 12:06:11,884 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=YJOM&uuid=6a780de2-4d6a-44fa-a945-261c96080c11 HTTP/1.1" 200 63
+INFO 2021-04-21 12:12:56,508 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=YJOM&uuid=6a780de2-4d6a-44fa-a945-261c96080c11 HTTP/1.1" 200 78
+INFO 2021-04-21 12:12:56,535 basehttp 161 "GET /imagecode/?uuid=51b3c8bb-3370-44e4-890f-64f1f9eb20eb HTTP/1.1" 200 3177
+INFO 2021-04-21 12:13:06,888 views 109 166631
+INFO 2021-04-21 12:13:07,274 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=VIJZ&uuid=51b3c8bb-3370-44e4-890f-64f1f9eb20eb HTTP/1.1" 200 63
+WARNING 2021-04-21 12:13:26,513 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-04-21 12:13:26,514 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+INFO 2021-04-21 12:17:14,322 autoreload 250 G:\workspace\blog\blog\templates\register.html changed, reloading.
+INFO 2021-04-21 12:17:19,642 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-21 12:17:31,014 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-04-21 12:17:31,016 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+INFO 2021-04-21 12:20:29,716 autoreload 250 G:\workspace\blog\blog\templates\register.html changed, reloading.
+INFO 2021-04-21 12:20:31,320 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-21 12:20:40,684 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-04-21 12:20:40,685 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+INFO 2021-04-21 12:25:20,744 autoreload 250 G:\workspace\blog\blog\users\views.py changed, reloading.
+INFO 2021-04-21 12:25:22,248 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 12:25:26,533 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-21 12:25:33,115 log 224 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-04-21 12:25:33,116 basehttp 161 "POST /register/ HTTP/1.1" 403 2514
+INFO 2021-04-21 12:31:07,640 autoreload 250 G:\workspace\blog\blog\libs\yuntongxun\sms.py changed, reloading.
+INFO 2021-04-21 12:31:09,772 autoreload 636 Watching for file changes with StatReloader
+ERROR 2021-04-21 12:34:01,677 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 19, in get
+    return render(request,'register.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-21 12:34:01,681 basehttp 161 "GET /register/ HTTP/1.1" 500 154829
+ERROR 2021-04-21 12:34:11,851 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 19, in get
+    return render(request,'register.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-21 12:34:11,855 basehttp 161 "GET /register/ HTTP/1.1" 500 154829
+INFO 2021-04-21 12:34:33,271 autoreload 636 Watching for file changes with StatReloader
+ERROR 2021-04-21 12:34:36,585 log 224 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 19, in get
+    return render(request,'register.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-21 12:34:36,592 basehttp 161 "GET /register/ HTTP/1.1" 500 154966
+INFO 2021-04-21 12:36:10,824 autoreload 250 G:\workspace\blog\blog\templates\register.html changed, reloading.
+INFO 2021-04-21 12:36:12,382 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 12:36:16,577 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 12:36:22,235 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-21 12:36:22,368 basehttp 161 "GET /imagecode/?uuid=456e6b1e-ef6f-4d78-8149-0cc7a062d9b7 HTTP/1.1" 200 3279
+INFO 2021-04-21 12:36:46,391 views 173 506816
+INFO 2021-04-21 12:36:46,761 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=AV5K&uuid=456e6b1e-ef6f-4d78-8149-0cc7a062d9b7 HTTP/1.1" 200 63
+INFO 2021-04-21 12:37:04,287 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+WARNING 2021-04-21 12:37:04,338 log 224 Not Found: /
+WARNING 2021-04-21 12:37:04,339 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-21 13:39:10,761 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-21 16:14:54,744 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-21 16:15:03,020 log 224 Not Found: /index/
+WARNING 2021-04-21 16:15:03,020 basehttp 161 "GET /index/ HTTP/1.1" 404 3818
+WARNING 2021-04-21 16:15:09,281 log 224 Not Found: /
+WARNING 2021-04-21 16:15:09,282 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-21 16:15:14,745 basehttp 161 "GET /admin HTTP/1.1" 301 0
+INFO 2021-04-21 16:15:14,775 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-21 16:15:15,232 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2361
+INFO 2021-04-21 16:15:15,256 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+INFO 2021-04-21 16:15:15,257 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO 2021-04-21 16:15:15,264 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 200 939
+INFO 2021-04-21 16:15:15,275 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+INFO 2021-04-21 16:15:15,276 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+INFO 2021-04-21 16:15:15,574 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-21 16:15:15,615 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2361
+INFO 2021-04-21 16:15:15,657 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-04-21 16:15:15,829 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-21 16:15:15,831 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-21 16:15:15,832 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-21 16:15:28,212 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2493
+INFO 2021-04-21 16:15:45,026 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2494
+INFO 2021-04-21 16:16:28,740 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2493
+INFO 2021-04-21 16:19:14,624 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2361
+INFO 2021-04-21 16:19:29,713 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2499
+INFO 2021-04-21 16:19:35,229 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-21 16:19:35,275 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2361
+INFO 2021-04-21 16:19:44,280 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-21 16:19:44,313 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2361
+WARNING 2021-04-21 16:23:34,259 log 224 Not Found: /home
+WARNING 2021-04-21 16:23:34,259 basehttp 161 "GET /home HTTP/1.1" 404 3812
+WARNING 2021-04-21 16:23:41,830 log 224 Not Found: /home/index.html
+WARNING 2021-04-21 16:23:41,831 basehttp 161 "GET /home/index.html HTTP/1.1" 404 3845
+WARNING 2021-04-21 16:26:21,906 log 224 Not Found: /
+WARNING 2021-04-21 16:26:21,907 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:26:29,902 log 224 Not Found: /
+WARNING 2021-04-21 16:26:29,902 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-21 16:26:45,207 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-21 16:26:50,048 log 224 Not Found: /
+WARNING 2021-04-21 16:26:50,049 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:26:58,438 log 224 Not Found: /
+WARNING 2021-04-21 16:26:58,438 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:27:10,334 log 224 Not Found: /
+WARNING 2021-04-21 16:27:10,335 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:27:11,433 log 224 Not Found: /
+WARNING 2021-04-21 16:27:11,434 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:27:11,871 log 224 Not Found: /
+WARNING 2021-04-21 16:27:11,871 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:27:12,063 log 224 Not Found: /
+WARNING 2021-04-21 16:27:12,064 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:27:12,233 log 224 Not Found: /
+WARNING 2021-04-21 16:27:12,234 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:27:22,097 log 224 Not Found: /index/
+WARNING 2021-04-21 16:27:22,098 basehttp 161 "GET /index/ HTTP/1.1" 404 3818
+WARNING 2021-04-21 16:27:57,777 log 224 Not Found: /
+WARNING 2021-04-21 16:27:57,778 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-21 16:30:27,204 autoreload 250 G:\workspace\blog\blog\home\views.py changed, reloading.
+INFO 2021-04-21 16:30:28,675 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-21 16:30:33,061 log 224 Not Found: /
+WARNING 2021-04-21 16:30:33,062 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:30:36,400 log 224 Not Found: /
+WARNING 2021-04-21 16:30:36,401 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:30:42,893 log 224 Not Found: /
+WARNING 2021-04-21 16:30:42,894 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 16:30:49,942 log 224 Not Found: /index/
+WARNING 2021-04-21 16:30:49,943 basehttp 161 "GET /index/ HTTP/1.1" 404 3818
+WARNING 2021-04-21 16:31:07,841 log 224 Not Found: /index/
+WARNING 2021-04-21 16:31:07,842 basehttp 161 "GET /index/ HTTP/1.1" 404 3818
+INFO 2021-04-21 16:31:37,765 autoreload 250 G:\workspace\blog\blog\home\views.py changed, reloading.
+INFO 2021-04-21 16:31:39,503 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-21 17:05:44,107 log 224 Not Found: /index/
+WARNING 2021-04-21 17:05:44,107 basehttp 161 "GET /index/ HTTP/1.1" 404 3818
+WARNING 2021-04-21 17:05:48,915 log 224 Not Found: /
+WARNING 2021-04-21 17:05:48,917 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 17:05:51,207 log 224 Not Found: /
+WARNING 2021-04-21 17:05:51,207 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 17:05:51,559 log 224 Not Found: /
+WARNING 2021-04-21 17:05:51,559 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 17:05:51,727 log 224 Not Found: /
+WARNING 2021-04-21 17:05:51,727 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-21 17:05:51,875 log 224 Not Found: /
+WARNING 2021-04-21 17:05:51,876 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 11:00:18,390 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 11:00:53,630 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-22 11:00:54,228 basehttp 161 "GET /imagecode/?uuid=d9f27198-c71a-4afd-8dca-afb7c1e788ff HTTP/1.1" 200 3376
+WARNING 2021-04-22 11:00:54,250 log 224 Not Found: /favicon.ico
+WARNING 2021-04-22 11:00:54,251 basehttp 161 "GET /favicon.ico HTTP/1.1" 404 3833
+INFO 2021-04-22 11:01:22,126 views 179 147311
+INFO 2021-04-22 11:01:22,464 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=kybn&uuid=d9f27198-c71a-4afd-8dca-afb7c1e788ff HTTP/1.1" 200 63
+ERROR 2021-04-22 11:01:30,759 views 68 (1062, "Duplicate entry '13980789029' for key 'tb_users.username'")
+WARNING 2021-04-22 11:01:30,760 log 224 Bad Request: /register/
+WARNING 2021-04-22 11:01:30,761 basehttp 161 "POST /register/ HTTP/1.1" 400 12
+ERROR 2021-04-22 11:01:51,903 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 195, in get
+    return render(request, 'login.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-22 11:01:51,907 basehttp 161 "GET /login/ HTTP/1.1" 500 154341
+INFO 2021-04-22 11:02:55,953 autoreload 250 G:\workspace\blog\blog\templates\login.html changed, reloading.
+INFO 2021-04-22 11:02:58,281 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 11:03:02,737 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-04-22 11:03:02,780 basehttp 161 "GET /static/js/login.js HTTP/1.1" 200 677
+WARNING 2021-04-22 11:03:13,770 log 224 Bad Request: /login/
+WARNING 2021-04-22 11:03:13,771 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+WARNING 2021-04-22 11:03:22,407 log 224 Bad Request: /login/
+WARNING 2021-04-22 11:03:22,408 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-04-22 11:03:34,754 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-22 11:03:34,924 basehttp 161 "GET /imagecode/?uuid=3b99fa0d-95ce-4e40-b194-e5d20465124a HTTP/1.1" 200 3473
+INFO 2021-04-22 11:03:42,510 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-04-22 11:03:56,372 log 224 Bad Request: /login/
+WARNING 2021-04-22 11:03:56,373 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-04-22 11:04:49,490 autoreload 250 G:\workspace\blog\blog\templates\index.html changed, reloading.
+INFO 2021-04-22 11:04:51,296 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-22 11:04:54,184 log 224 Not Found: /index/
+WARNING 2021-04-22 11:04:54,185 basehttp 161 "GET /index/ HTTP/1.1" 404 3818
+WARNING 2021-04-22 11:06:17,374 log 224 Not Found: /
+WARNING 2021-04-22 11:06:17,375 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 11:33:48,612 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-22 11:33:48,776 basehttp 161 "GET /imagecode/?uuid=a3fcfd47-e093-438c-9254-f40915e842c4 HTTP/1.1" 200 3107
+INFO 2021-04-22 11:34:13,450 views 179 493518
+INFO 2021-04-22 11:34:13,753 basehttp 161 "GET /smscode/?mobile=18982186282&image_code=el7u&uuid=a3fcfd47-e093-438c-9254-f40915e842c4 HTTP/1.1" 200 63
+INFO 2021-04-22 11:35:19,897 basehttp 161 "GET /imagecode/?uuid=1d53d7e2-5d36-49b3-89bc-958db1e68aac HTTP/1.1" 200 3552
+INFO 2021-04-22 11:35:21,254 basehttp 161 "GET /imagecode/?uuid=e856c6e3-2fac-4251-bb07-62a0fb90ae38 HTTP/1.1" 200 2974
+INFO 2021-04-22 11:35:22,612 basehttp 161 "GET /imagecode/?uuid=6f7f6e61-22ba-4427-82d7-cba9d26e35fb HTTP/1.1" 200 3550
+INFO 2021-04-22 11:35:35,019 views 179 252426
+INFO 2021-04-22 11:35:35,350 basehttp 161 "GET /smscode/?mobile=18982186282&image_code=E6LM&uuid=6f7f6e61-22ba-4427-82d7-cba9d26e35fb HTTP/1.1" 200 63
+INFO 2021-04-22 11:35:43,611 basehttp 161 "POST /register/ HTTP/1.1" 302 0
+WARNING 2021-04-22 11:35:43,619 log 224 Not Found: /
+WARNING 2021-04-22 11:35:43,620 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-22 11:37:33,982 log 224 Not Found: /
+WARNING 2021-04-22 11:37:33,983 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 11:45:00,285 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-22 11:45:00,445 basehttp 161 "GET /imagecode/?uuid=9ab7c302-e863-4875-9907-3ded5ce2e5e9 HTTP/1.1" 200 3221
+INFO 2021-04-22 11:45:03,975 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-22 11:45:04,056 basehttp 161 "GET /imagecode/?uuid=e22fc8bb-7634-4ff7-b1ec-300a0114e34b HTTP/1.1" 200 3031
+INFO 2021-04-22 11:45:18,555 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-04-22 11:45:20,599 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-22 11:45:20,670 basehttp 161 "GET /imagecode/?uuid=31e80aed-e9a0-42e5-9558-5648fe69e1b1 HTTP/1.1" 200 3196
+INFO 2021-04-22 17:20:22,441 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-04-22 17:20:33,476 log 224 Bad Request: /login/
+WARNING 2021-04-22 17:20:33,477 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+WARNING 2021-04-22 17:22:06,116 log 224 Bad Request: /login/
+WARNING 2021-04-22 17:22:06,117 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+WARNING 2021-04-22 17:22:42,130 log 224 Bad Request: /login/
+WARNING 2021-04-22 17:22:42,131 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-04-22 17:29:44,352 autoreload 250 G:\workspace\blog\blog\users\models.py changed, reloading.
+INFO 2021-04-22 17:29:46,413 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 17:30:01,666 autoreload 250 G:\workspace\blog\blog\users\models.py changed, reloading.
+INFO 2021-04-22 17:30:03,806 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 17:30:12,137 autoreload 636 Watching for file changes with StatReloader
+WARNING 2021-04-22 17:30:18,724 log 224 Bad Request: /login/
+WARNING 2021-04-22 17:30:18,727 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-04-22 17:30:23,202 basehttp 161 "GET /login HTTP/1.1" 301 0
+INFO 2021-04-22 17:30:23,226 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-04-22 17:30:32,333 log 224 Bad Request: /login/
+WARNING 2021-04-22 17:30:32,334 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-04-22 17:30:40,249 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-04-22 17:30:49,513 log 224 Bad Request: /login/
+WARNING 2021-04-22 17:30:49,514 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-04-22 17:32:03,498 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 17:33:28,567 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 17:34:57,359 autoreload 250 G:\workspace\blog\blog\users\models.py changed, reloading.
+INFO 2021-04-22 17:35:01,071 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 17:35:01,901 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-04-22 17:35:11,209 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+WARNING 2021-04-22 17:35:11,259 log 224 Not Found: /
+WARNING 2021-04-22 17:35:11,260 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-22 17:35:19,929 log 224 Not Found: /
+WARNING 2021-04-22 17:35:19,930 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 17:35:28,098 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-04-22 17:35:37,352 log 224 Bad Request: /login/
+WARNING 2021-04-22 17:35:37,355 basehttp 161 "POST /login/ HTTP/1.1" 400 24
+INFO 2021-04-22 17:35:44,042 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-04-22 17:35:51,870 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+WARNING 2021-04-22 17:35:51,882 log 224 Not Found: /
+WARNING 2021-04-22 17:35:51,884 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-22 17:45:39,981 log 224 Not Found: /
+WARNING 2021-04-22 17:45:39,985 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-22 17:45:42,826 log 224 Not Found: /
+WARNING 2021-04-22 17:45:42,827 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 17:45:50,820 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-04-22 17:46:01,333 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+WARNING 2021-04-22 17:46:01,356 log 224 Not Found: /
+WARNING 2021-04-22 17:46:01,357 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 17:49:33,385 basehttp 161 "GET /logout HTTP/1.1" 301 0
+INFO 2021-04-22 17:49:33,501 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+WARNING 2021-04-22 17:49:33,567 log 224 Not Found: /
+WARNING 2021-04-22 17:49:33,569 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 17:49:48,483 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+WARNING 2021-04-22 17:49:48,507 log 224 Not Found: /
+WARNING 2021-04-22 17:49:48,508 basehttp 161 "GET / HTTP/1.1" 404 15
+WARNING 2021-04-22 17:49:52,733 log 224 Not Found: /
+WARNING 2021-04-22 17:49:52,734 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 18:07:33,119 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+ERROR 2021-04-22 18:07:35,857 log 224 Internal Server Error: /forgetpassword/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 281, in get
+    return render(request, 'forget_password.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-22 18:07:35,867 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 500 158038
+INFO 2021-04-22 18:07:57,258 autoreload 250 G:\workspace\blog\blog\templates\forget_password.html changed, reloading.
+INFO 2021-04-22 18:08:00,505 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 18:08:01,723 basehttp 161 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-04-22 18:08:01,803 basehttp 161 "GET /static/js/forget_password.js HTTP/1.1" 200 6567
+INFO 2021-04-22 18:08:02,021 basehttp 161 "GET /imagecode/?uuid=b61186a4-db8c-4d5f-a642-289998642572 HTTP/1.1" 200 2940
+INFO 2021-04-22 18:08:25,640 views 179 698150
+INFO 2021-04-22 18:08:26,046 basehttp 161 "GET /smscode/?mobile=13980789029&image_code=fhob&uuid=b61186a4-db8c-4d5f-a642-289998642572 HTTP/1.1" 200 63
+INFO 2021-04-22 18:08:39,456 basehttp 161 "POST /forgetpassword/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:08:39,468 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-04-22 18:08:53,081 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+WARNING 2021-04-22 18:08:53,092 log 224 Not Found: /
+WARNING 2021-04-22 18:08:53,092 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 18:18:08,364 autoreload 250 G:\workspace\blog\blog\templates\center.html changed, reloading.
+INFO 2021-04-22 18:18:12,405 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 18:18:15,689 basehttp 161 "GET /center/ HTTP/1.1" 200 4300
+INFO 2021-04-22 18:18:15,806 basehttp 161 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2021-04-22 18:18:15,814 basehttp 161 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-04-22 18:18:45,559 basehttp 161 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:18:45,592 basehttp 161 "GET /center/ HTTP/1.1" 200 4332
+INFO 2021-04-22 18:18:49,821 basehttp 161 "GET /center/ HTTP/1.1" 200 4332
+WARNING 2021-04-22 18:19:29,834 log 224 Not Found: /center/write_blog.html
+WARNING 2021-04-22 18:19:29,835 basehttp 161 "GET /center/write_blog.html HTTP/1.1" 404 3866
+INFO 2021-04-22 18:19:49,100 basehttp 161 "GET /center/ HTTP/1.1" 200 4332
+INFO 2021-04-22 18:19:52,038 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+WARNING 2021-04-22 18:19:52,105 log 224 Not Found: /
+WARNING 2021-04-22 18:19:52,107 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 18:20:08,619 basehttp 161 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:20:08,646 basehttp 161 "GET /login/?next=/center/ HTTP/1.1" 200 3202
+INFO 2021-04-22 18:20:18,434 basehttp 161 "POST /login/?next=/center/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:20:18,457 basehttp 161 "GET /center/ HTTP/1.1" 200 4332
+WARNING 2021-04-22 18:20:27,309 log 224 Not Found: /center/write_blog.html
+WARNING 2021-04-22 18:20:27,309 basehttp 161 "GET /center/write_blog.html HTTP/1.1" 404 3866
+INFO 2021-04-22 18:21:58,150 basehttp 161 "GET /static/write_blog.html HTTP/1.1" 200 5728
+INFO 2021-04-22 18:21:58,204 basehttp 161 "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+INFO 2021-04-22 18:21:58,206 basehttp 161 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-04-22 18:21:58,285 basehttp 161 "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 690627
+INFO 2021-04-22 18:21:58,341 basehttp 161 "GET /static/js/write_blog.js HTTP/1.1" 200 521
+INFO 2021-04-22 18:21:59,352 basehttp 161 "GET /static/ckeditor/ckeditor/config.js?t=I3I8 HTTP/1.1" 200 338
+INFO 2021-04-22 18:21:59,373 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=I3I8 HTTP/1.1" 200 46921
+INFO 2021-04-22 18:21:59,377 basehttp 161 "GET /static/ckeditor/ckeditor/lang/zh-cn.js?t=I3I8 HTTP/1.1" 200 18818
+INFO 2021-04-22 18:21:59,414 basehttp 161 "GET /static/ckeditor/ckeditor/styles.js?t=I3I8 HTTP/1.1" 200 5583
+INFO 2021-04-22 18:21:59,435 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+INFO 2021-04-22 18:21:59,435 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+INFO 2021-04-22 18:21:59,436 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+INFO 2021-04-22 18:21:59,438 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+INFO 2021-04-22 18:21:59,445 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1513
+INFO 2021-04-22 18:21:59,492 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=95e5d83 HTTP/1.1" 200 12421
+INFO 2021-04-22 18:21:59,518 basehttp 161 "GET /static/ckeditor/ckeditor/contents.css?t=I3I8 HTTP/1.1" 200 2954
+INFO 2021-04-22 18:22:14,545 basehttp 161 "GET /static/index.html HTTP/1.1" 200 12002
+INFO 2021-04-22 18:22:14,598 basehttp 161 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-04-22 18:22:14,599 basehttp 161 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-04-22 18:22:14,604 basehttp 161 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-04-22 18:22:14,683 basehttp 161 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-04-22 18:22:14,693 basehttp 161 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-04-22 18:22:14,719 basehttp 161 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-04-22 18:22:30,000 basehttp 161 "GET /static/center.html HTTP/1.1" 200 4136
+INFO 2021-04-22 18:24:32,317 basehttp 161 "GET /writeblog HTTP/1.1" 301 0
+ERROR 2021-04-22 18:24:32,907 log 224 Internal Server Error: /writeblog/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\contrib\auth\mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\users\views.py", line 414, in get
+    return render(request, 'write_blog.html', context=context)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-22 18:24:32,914 basehttp 161 "GET /writeblog/ HTTP/1.1" 500 165810
+INFO 2021-04-22 18:25:13,575 autoreload 250 G:\workspace\blog\blog\templates\write_blog.html changed, reloading.
+INFO 2021-04-22 18:25:17,233 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 18:25:17,954 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 5478
+WARNING 2021-04-22 18:28:10,130 log 224 Bad Request: /writeblog/
+WARNING 2021-04-22 18:28:10,132 basehttp 161 "POST /writeblog/ HTTP/1.1" 400 12
+WARNING 2021-04-22 18:28:55,913 log 224 Not Found: /
+WARNING 2021-04-22 18:28:55,914 basehttp 161 "GET / HTTP/1.1" 404 15
+INFO 2021-04-22 18:36:26,435 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:36:27,129 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2357
+INFO 2021-04-22 18:36:27,202 basehttp 161 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2021-04-22 18:36:27,205 basehttp 161 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2021-04-22 18:36:27,261 basehttp 161 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2021-04-22 18:36:27,272 basehttp 161 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2021-04-22 18:36:27,288 basehttp 161 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2021-04-22 18:36:30,337 basehttp 161 "GET /admin/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:36:30,436 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2357
+INFO 2021-04-22 18:36:30,542 basehttp 161 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-04-22 18:36:30,652 basehttp 161 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-22 18:36:30,660 basehttp 161 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-22 18:36:30,667 basehttp 161 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-04-22 18:40:59,998 autoreload 250 G:\workspace\blog\blog\users\models.py changed, reloading.
+INFO 2021-04-22 18:41:03,430 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 18:42:16,998 autoreload 250 G:\workspace\blog\blog\users\models.py changed, reloading.
+INFO 2021-04-22 18:42:20,715 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 18:47:47,904 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 18:47:53,294 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2357
+INFO 2021-04-22 18:48:23,140 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:48:23,285 basehttp 161 "GET /admin/ HTTP/1.1" 200 3564
+INFO 2021-04-22 18:48:23,353 basehttp 161 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2021-04-22 18:48:23,374 basehttp 161 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2021-04-22 18:48:23,378 basehttp 161 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2021-04-22 18:55:56,184 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 18:55:56,253 basehttp 161 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2021-04-22 18:55:56,259 basehttp 161 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+INFO 2021-04-22 18:55:56,307 basehttp 161 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2021-04-22 18:55:56,324 basehttp 161 "GET /static/admin/css/forms.css HTTP/1.1" 200 8804
+INFO 2021-04-22 18:55:56,327 basehttp 161 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19634
+INFO 2021-04-22 18:55:56,330 basehttp 161 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2021-04-22 18:55:56,333 basehttp 161 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+INFO 2021-04-22 18:55:56,341 basehttp 161 "GET /static/admin/js/actions.js HTTP/1.1" 200 6540
+INFO 2021-04-22 18:55:56,345 basehttp 161 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2021-04-22 18:55:56,361 basehttp 161 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2021-04-22 18:55:56,365 basehttp 161 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 492
+INFO 2021-04-22 18:55:56,370 basehttp 161 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2021-04-22 18:55:56,378 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:55:56,393 basehttp 161 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11097
+INFO 2021-04-22 18:55:56,440 basehttp 161 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2021-04-22 18:55:56,613 basehttp 161 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2021-04-22 18:55:56,613 basehttp 161 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2021-04-22 18:58:22,694 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:58:22,755 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6594
+INFO 2021-04-22 18:58:22,823 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:58:22,894 basehttp 161 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2021-04-22 18:58:31,771 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:58:31,839 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6592
+INFO 2021-04-22 18:58:31,906 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:58:37,761 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:58:37,850 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6592
+INFO 2021-04-22 18:58:37,891 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:58:43,999 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:58:44,072 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6594
+INFO 2021-04-22 18:58:44,135 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:58:53,138 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:58:53,196 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6591
+INFO 2021-04-22 18:58:53,243 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:59:06,518 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:59:06,578 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6590
+INFO 2021-04-22 18:59:06,641 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:59:12,487 basehttp 161 "POST /admin/home/articlecategory/add/ HTTP/1.1" 302 0
+INFO 2021-04-22 18:59:12,544 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6594
+INFO 2021-04-22 18:59:12,575 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:59:16,999 basehttp 161 "GET /admin/home/articlecategory/ HTTP/1.1" 200 7138
+INFO 2021-04-22 18:59:17,046 basehttp 161 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+INFO 2021-04-22 18:59:17,080 basehttp 161 "GET /admin/jsi18n/ HTTP/1.1" 200 8398
+INFO 2021-04-22 18:59:17,113 basehttp 161 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2021-04-22 19:12:20,389 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 19:12:21,127 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 19:12:21,853 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 19:12:22,507 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 19:12:22,964 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 19:12:23,423 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 19:12:23,776 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 19:12:24,080 basehttp 161 "GET /admin/home/articlecategory/add/ HTTP/1.1" 200 6344
+INFO 2021-04-22 19:12:24,259 basehttp 161 "GET /admin/ HTTP/1.1" 200 5667
+INFO 2021-04-22 19:12:24,364 basehttp 161 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2021-04-22 19:12:24,407 basehttp 161 "GET /admin/ HTTP/1.1" 200 5667
+INFO 2021-04-22 19:12:24,511 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 6132
+INFO 2021-04-22 19:13:12,870 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/icons.png?t=I3I8 HTTP/1.1" 200 12421
+INFO 2021-04-22 19:13:13,573 basehttp 161 "GET /static/ckeditor/ckeditor/skins/moono-lisa/images/close.png HTTP/1.1" 200 615
+INFO 2021-04-22 19:13:22,529 basehttp 161 "POST /writeblog/ HTTP/1.1" 302 0
+INFO 2021-04-22 19:13:22,679 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:13:22,771 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-04-22 19:13:22,950 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 200 4797617
+INFO 2021-04-22 19:13:35,486 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:13:35,531 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:13:38,525 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:13:39,869 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6708
+INFO 2021-04-22 19:13:39,920 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+ERROR 2021-04-22 19:13:43,278 log 224 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\home\views.py", line 121, in get
+    return render(request,'detail.html',context=context)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-22 19:13:43,285 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 500 165293
+INFO 2021-04-22 19:14:06,813 autoreload 250 G:\workspace\blog\blog\templates\detail.html changed, reloading.
+INFO 2021-04-22 19:14:09,658 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 19:14:14,986 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 8261
+INFO 2021-04-22 19:14:15,038 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.js HTTP/1.1" 200 99487
+INFO 2021-04-22 19:14:15,044 basehttp 161 "GET /static/prism/prism.css HTTP/1.1" 200 4033
+INFO 2021-04-22 19:14:15,064 basehttp 161 "GET /static/js/detail.js HTTP/1.1" 200 1294
+INFO 2021-04-22 19:14:15,408 basehttp 161 "GET /static/ckeditor/ckeditor/lang/en.js?t=I3I8 HTTP/1.1" 200 19035
+INFO 2021-04-22 19:14:15,446 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/plugin.js?t=I3I8 HTTP/1.1" 200 4333
+INFO 2021-04-22 19:14:15,446 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=I3I8 HTTP/1.1" 200 3824
+INFO 2021-04-22 19:14:15,473 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/en.js?t=I3I8 HTTP/1.1" 200 369
+INFO 2021-04-22 19:14:15,538 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=I3I8 HTTP/1.1" 200 597
+INFO 2021-04-22 19:14:15,567 basehttp 161 "GET /static/ckeditor/ckeditor/plugins/prism/lib/prism/prism_patched.min.css HTTP/1.1" 200 2063
+INFO 2021-04-22 19:14:23,124 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:14:23,213 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:15:23,241 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:15:23,942 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:15:24,411 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:15:24,809 basehttp 161 "GET /?cat_id=6 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:15:25,306 basehttp 161 "GET /?cat_id=5 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:15:25,757 basehttp 161 "GET /?cat_id=7 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:15:27,625 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-04-22 19:15:27,650 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:15:27,688 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:15:29,988 basehttp 161 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-04-22 19:15:41,410 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-04-22 19:15:41,430 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:15:41,547 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:26:27,040 autoreload 250 G:\workspace\blog\blog\home\models.py changed, reloading.
+INFO 2021-04-22 19:26:30,043 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 19:44:40,121 autoreload 250 G:\workspace\blog\blog\home\models.py changed, reloading.
+INFO 2021-04-22 19:44:42,436 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 19:46:37,054 autoreload 250 G:\workspace\blog\blog\home\models.py changed, reloading.
+INFO 2021-04-22 19:46:39,080 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 19:49:10,899 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 19:50:28,772 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 19:50:42,622 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:50:42,698 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:50:42,700 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-04-22 19:50:54,916 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:50:57,238 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6708
+INFO 2021-04-22 19:51:01,470 basehttp 161 "GET /center/ HTTP/1.1" 200 4332
+INFO 2021-04-22 19:51:53,450 basehttp 161 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-04-22 19:51:53,465 basehttp 161 "GET /center/ HTTP/1.1" 200 4357
+INFO 2021-04-22 19:51:53,545 basehttp 161 "GET /media/avatar/210422/IMG_20190525_160550.jpg HTTP/1.1" 200 938358
+INFO 2021-04-22 19:51:59,032 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:52:02,036 basehttp 161 "GET /center/ HTTP/1.1" 200 4357
+INFO 2021-04-22 19:52:02,067 basehttp 161 "GET /media/avatar/210422/IMG_20190525_160550.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:52:15,649 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:52:24,302 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-22 19:52:25,353 basehttp 161 "GET /imagecode/?uuid=452806c6-7d11-4bbb-9cf7-9e9dc7745a93 HTTP/1.1" 200 2815
+INFO 2021-04-22 19:52:29,026 basehttp 161 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-04-22 19:52:29,154 basehttp 161 "GET /imagecode/?uuid=26367ab7-4aee-48d7-8bc2-bdcd7b25f81e HTTP/1.1" 200 3326
+WARNING 2021-04-22 19:52:30,459 log 224 Not Found: /register/index.html
+WARNING 2021-04-22 19:52:30,460 basehttp 161 "GET /register/index.html HTTP/1.1" 404 3857
+INFO 2021-04-22 19:52:44,355 basehttp 161 "GET /imagecode/?uuid=1aab0b10-371c-4023-9b81-b7465e6e151b HTTP/1.1" 200 3220
+WARNING 2021-04-22 19:55:01,153 log 224 Not Found: /register/login.html
+WARNING 2021-04-22 19:55:01,153 basehttp 161 "GET /register/login.html HTTP/1.1" 404 3857
+INFO 2021-04-22 19:55:12,916 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:55:12,997 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:55:16,409 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:55:18,068 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:55:27,213 basehttp 161 "GET /center/ HTTP/1.1" 200 4357
+INFO 2021-04-22 19:55:27,251 basehttp 161 "GET /media/avatar/210422/IMG_20190525_160550.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:55:29,636 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:56:22,709 autoreload 250 G:\workspace\blog\blog\templates\login.html changed, reloading.
+INFO 2021-04-22 19:56:25,202 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 19:57:46,260 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 19:57:52,142 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:57:55,267 basehttp 161 "GET /center/ HTTP/1.1" 200 4357
+INFO 2021-04-22 19:57:55,318 basehttp 161 "GET /media/avatar/210422/IMG_20190525_160550.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 19:57:56,711 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:57:59,328 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 6132
+INFO 2021-04-22 19:58:00,545 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:03,725 basehttp 161 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-04-22 19:58:03,755 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:05,885 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:06,588 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:06,881 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:07,064 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:09,990 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:14,801 basehttp 161 "GET /register/ HTTP/1.1" 200 5310
+INFO 2021-04-22 19:58:15,790 basehttp 161 "GET /imagecode/?uuid=f65a2d44-c8e7-4bf9-b93b-af09ca862280 HTTP/1.1" 200 3221
+INFO 2021-04-22 19:58:19,541 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:21,108 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:21,609 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:58:22,039 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:58:22,443 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:58:22,799 basehttp 161 "GET /?cat_id=6 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:58:23,166 basehttp 161 "GET /?cat_id=5 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:58:23,866 basehttp 161 "GET /?cat_id=7 HTTP/1.1" 200 5270
+INFO 2021-04-22 19:58:24,956 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:27,281 basehttp 161 "GET /login/ HTTP/1.1" 200 3193
+INFO 2021-04-22 19:58:36,507 basehttp 161 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-04-22 19:58:36,528 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 19:58:42,269 basehttp 161 "GET /writeblog/ HTTP/1.1" 200 6132
+INFO 2021-04-22 20:00:35,863 basehttp 161 "POST /writeblog/ HTTP/1.1" 302 0
+INFO 2021-04-22 20:00:36,051 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 20:00:36,152 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 20:00:39,577 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 6748
+INFO 2021-04-22 20:00:39,645 basehttp 161 "GET /media/article/20210422/IMG_20190525_101513.jpg HTTP/1.1" 200 1426333
+INFO 2021-04-22 20:00:41,881 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 20:00:44,341 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 20:00:48,067 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 6748
+INFO 2021-04-22 20:00:48,144 basehttp 161 "GET /media/article/20210422/IMG_20190525_101513.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 20:00:51,821 basehttp 161 "GET /detail/?id=2 HTTP/1.1" 200 9526
+ERROR 2021-04-22 20:03:01,591 log 224 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "G:\workspace\blog\blog\home\views.py", line 78, in get
+    article=Article.objects.get(id=id)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+home.models.Article.DoesNotExist: Article matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\home\views.py", line 80, in get
+    return render(request,'404.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-22 20:03:01,597 basehttp 161 "GET /detail/?cat_id=1 HTTP/1.1" 500 160620
+ERROR 2021-04-22 20:05:04,344 log 224 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "G:\workspace\blog\blog\home\views.py", line 78, in get
+    article=Article.objects.get(id=id)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+home.models.Article.DoesNotExist: Article matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\home\views.py", line 80, in get
+    return render(request,'404.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-22 20:05:04,347 basehttp 161 "GET /detail/?cat_id=1 HTTP/1.1" 500 160620
+INFO 2021-04-22 20:05:57,628 autoreload 250 G:\workspace\blog\blog\templates\detail.html changed, reloading.
+INFO 2021-04-22 20:05:59,669 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 20:06:04,276 basehttp 161 "GET /detail/?id=2 HTTP/1.1" 200 9525
+ERROR 2021-04-22 20:06:07,122 log 224 Internal Server Error: /detail/
+Traceback (most recent call last):
+  File "G:\workspace\blog\blog\home\views.py", line 78, in get
+    article=Article.objects.get(id=id)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+home.models.Article.DoesNotExist: Article matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "G:\workspace\blog\blog\home\views.py", line 80, in get
+    return render(request,'404.html')
+  File "G:\workspace\py_django\blog\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "G:\workspace\py_django\blog\lib\site-packages\django\template\defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'staticfiles' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2021-04-22 20:06:07,132 basehttp 161 "GET /detail/?cat_id=1 HTTP/1.1" 500 160620
+INFO 2021-04-22 20:07:13,058 autoreload 250 G:\workspace\blog\blog\templates\404.html changed, reloading.
+INFO 2021-04-22 20:07:15,288 autoreload 636 Watching for file changes with StatReloader
+INFO 2021-04-22 20:07:16,056 basehttp 161 "GET /detail/?cat_id=1 HTTP/1.1" 200 1140
+INFO 2021-04-22 20:07:16,107 basehttp 161 "GET /static/img/404.png HTTP/1.1" 200 107422
+INFO 2021-04-22 20:07:19,432 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 20:07:19,536 basehttp 161 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-04-22 20:07:19,540 basehttp 161 "GET /media/article/20210422/IMG_20180915_072612.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 20:07:21,056 basehttp 161 "GET /?cat_id=2 HTTP/1.1" 200 5270
+INFO 2021-04-22 20:07:22,644 basehttp 161 "GET /?cat_id=3 HTTP/1.1" 200 5270
+INFO 2021-04-22 20:07:23,774 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6708
+INFO 2021-04-22 20:07:26,531 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 8397
+INFO 2021-04-22 20:07:28,599 basehttp 161 "GET /detail/?cat_id=2 HTTP/1.1" 200 1140
+INFO 2021-04-22 20:07:31,674 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 20:07:33,866 basehttp 161 "GET /detail/?id=1 HTTP/1.1" 200 8397
+INFO 2021-04-22 20:07:41,022 basehttp 161 "GET /detail/?cat_id=4 HTTP/1.1" 200 1140
+INFO 2021-04-22 20:07:43,024 basehttp 161 "GET / HTTP/1.1" 200 6708
+INFO 2021-04-22 20:07:45,600 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 6748
+INFO 2021-04-22 20:07:45,643 basehttp 161 "GET /media/article/20210422/IMG_20190525_101513.jpg HTTP/1.1" 304 0
+INFO 2021-04-22 20:07:47,482 basehttp 161 "GET /?cat_id=5 HTTP/1.1" 200 5270
+INFO 2021-04-22 20:07:48,555 basehttp 161 "GET /?cat_id=4 HTTP/1.1" 200 6748
+INFO 2021-04-22 20:07:49,892 basehttp 161 "GET /?cat_id=1 HTTP/1.1" 200 6708
+INFO 2021-04-22 20:10:23,887 autoreload 636 Watching for file changes with StatReloader
